@@ -1,0 +1,90 @@
+[
+  {
+    "pattern": "//.*$",
+    "color": "#565f89"
+  },
+  {
+    "pattern": "\\#include",
+    "color": "#86e1fc"
+  },
+	{
+		"pattern": "\\<.*\\>",
+		"color": "#c3e88d"
+	},
+  {
+    "pattern": "/\\*[\\s\\S]*?\\*/",
+    "color": "#565f89"
+  },
+  {
+    "pattern": "\"(?:\\\\.|[^\\\\\"])*\"",
+    "color": "#9ece6a"
+  },
+  {
+    "pattern": "'(?:\\\\.|[^\\\\'])*'",
+    "color": "#9ece6a"
+  },
+  {
+    "pattern": "%[#0\\-+ ]?\\d*\\.?\\d*[diuoxXfFeEgGaAcspn%]",
+    "color": "#f7768e"
+  },
+  {
+    "pattern": "\\b(?:auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|inline|int|long|register|restrict|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while|_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local)\\b",
+    "color": "#bb9af7"
+  },
+  {
+    "pattern": "\\b(?:bool|int8_t|int16_t|int32_t|int64_t|uint8_t|uint16_t|uint32_t|uint64_t|size_t|ssize_t|intptr_t|uintptr_t|float|double|char|void)\\b",
+    "color": "#2ac3de"
+  },
+  {
+    "pattern": "\\b(?:true|false|NULL)\\b",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\b(?:printf|fprintf|sprintf|snprintf|scanf|fscanf|sscanf|malloc|calloc|realloc|free|exit|abort|memcpy|memset|strlen|strcmp|strcpy|strncpy|fopen|fclose|fread|fwrite|fseek|ftell|fgets|fputs|putchar|getchar|puts|gets|perror)\\b",
+    "color": "#7aa2f7"
+  },
+  {
+    "pattern": "\\b[A-Z][a-zA-Z0-9_]*\\b",
+    "color": "#2ac3de"
+  },
+  {
+    "pattern": "\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[xX][0-9a-fA-F]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[oO][0-7]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[bB][01]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+    "color": "#7aa2f7",
+    "capture": 1
+  },
+  {
+    "pattern": "\\.([a-zA-Z_][a-zA-Z0-9_]*)\\b",
+    "color": "#73daca",
+    "capture": 1
+  },
+  {
+    "pattern": "#\\s*include\\s*[<\"]([^>\"]+)[>\"]",
+    "color": "#bb9af7",
+    "capture": 1
+  },
+  {
+    "pattern": "#\\s*(?:define|ifdef|ifndef|endif|else|elif|pragma|undef)\\b",
+    "color": "#bb9af7"
+  },
+  {
+    "pattern": "[+\\-*/%&|^<>=!:]+",
+    "color": "#89ddff"
+  }
+]
+

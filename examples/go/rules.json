@@ -9,15 +9,21 @@
   },
   {
     "pattern": "`[^`]*`",
-    "color": "#9ece6a"
+    "color": "#9ece6a",
+    "nested": ["%[#0\\-+ ]?\\d*\\.?\\d*[vTtbcdoOqxXUeEfFgGsp%]"]
   },
   {
     "pattern": "\"(?:\\\\.|[^\\\\\"])*\"",
-    "color": "#9ece6a"
+    "color": "#9ece6a",
+    "nested": ["%[#0\\-+ ]?\\d*\\.?\\d*[vTtbcdoOqxXUeEfFgGsp%]"]
   },
   {
     "pattern": "'(?:\\\\.|[^\\\\'])*'",
     "color": "#9ece6a"
+  },
+  {
+    "pattern": "%[#0\\-+ ]?\\d*\\.?\\d*[vTtbcdoOqxXUeEfFgGsp%]",
+    "color": "#f7768e"
   },
   {
     "pattern": "\\b(?:break|case|chan|const|continue|default|defer|else|fallthrough|for|func|go|goto|if|import|interface|map|package|range|return|select|struct|switch|type|var)\\b",
@@ -58,6 +64,21 @@
   {
     "pattern": "\\bfunc\\s+([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
     "color": "#7aa2f7"
+  },
+  {
+    "pattern": "\\.([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+    "color": "#7aa2f7",
+    "capture": 1
+  },
+  {
+    "pattern": "\\b([a-z][a-zA-Z0-9_]*)\\s*\\(",
+    "color": "#7aa2f7",
+    "capture": 1
+  },
+  {
+    "pattern": "\\.([a-zA-Z_][a-zA-Z0-9_]*)\\b",
+    "color": "#73daca",
+    "capture": 1
   },
   {
     "pattern": "[+\\-*/%&|^<>=!:]+",
