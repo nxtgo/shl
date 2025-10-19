@@ -1,0 +1,66 @@
+[
+  {
+    "pattern": "//.*$",
+    "color": "#565f89"
+  },
+  {
+    "pattern": "/\\*[\\s\\S]*?\\*/",
+    "color": "#565f89"
+  },
+  {
+    "pattern": "`[^`]*`",
+    "color": "#9ece6a"
+  },
+  {
+    "pattern": "\"(?:\\\\.|[^\\\\\"])*\"",
+    "color": "#9ece6a"
+  },
+  {
+    "pattern": "'(?:\\\\.|[^\\\\'])*'",
+    "color": "#9ece6a"
+  },
+  {
+    "pattern": "\\b(?:break|case|chan|const|continue|default|defer|else|fallthrough|for|func|go|goto|if|import|interface|map|package|range|return|select|struct|switch|type|var)\\b",
+    "color": "#bb9af7"
+  },
+  {
+    "pattern": "\\b(?:bool|byte|complex64|complex128|error|float32|float64|int|int8|int16|int32|int64|rune|string|uint|uint8|uint16|uint32|uint64|uintptr)\\b",
+    "color": "#2ac3de"
+  },
+  {
+    "pattern": "\\b(?:true|false|nil|iota)\\b",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\b(?:append|cap|close|complex|copy|delete|imag|len|make|new|panic|print|println|real|recover)\\b",
+    "color": "#7aa2f7"
+  },
+  {
+    "pattern": "\\b[A-Z][a-zA-Z0-9]*\\b",
+    "color": "#7dcfff"
+  },
+  {
+    "pattern": "\\b\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?\\b",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[xX][0-9a-fA-F]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[oO][0-7]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "0[bB][01]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\bfunc\\s+([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+    "color": "#7aa2f7"
+  },
+  {
+    "pattern": "[+\\-*/%&|^<>=!:]+",
+    "color": "#89ddff"
+  }
+]
