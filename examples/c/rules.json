@@ -55,12 +55,20 @@
     "pattern": "0[xX][0-9a-fA-F]+",
     "color": "#ff9e64"
   },
-  {
+{
     "pattern": "0[oO][0-7]+",
     "color": "#ff9e64"
   },
   {
     "pattern": "0[bB][01]+",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\b\\d+\\.\\d+[fFlL]?\\b",
+    "color": "#ff9e64"
+  },
+  {
+    "pattern": "\\b\\d+[fFlL]\\b",
     "color": "#ff9e64"
   },
   {
@@ -71,11 +79,6 @@
   {
     "pattern": "\\.([a-zA-Z_][a-zA-Z0-9_]*)\\b",
     "color": "#73daca",
-    "capture": 1
-  },
-  {
-    "pattern": "#\\s*include\\s*[<\"]([^>\"]+)[>\"]",
-    "color": "#bb9af7",
     "capture": 1
   },
   {
