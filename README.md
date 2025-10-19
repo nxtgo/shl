@@ -60,7 +60,8 @@ nested patterns example (colors format specifiers inside strings):
 
 # examples
 
-* [go.json](examples/go.json) - tokyonight colors for go syntax
+* [go](examples/go) - tokyonight colors for go syntax
+* [c](examples/c) - tokyonight colors for c syntax
 
 # license
 
